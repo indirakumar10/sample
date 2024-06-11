@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.handling {
+    background-color: white;
+
+    border-radius: 9px;
+    height: 480px;
+    width: 450px;
+
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    ;
+
+}
+
+
+.handling {
+    background-color: white;
+    width: 28rem;
+}
+
+
+.zomato-login div {
+    margin: 15px;
+}
+
+.headding {
+    display: flex;
+    justify-content: space-between;
+}
+
+div>h1 {
+    font-weight: 500;
+    line-height: 18px;
+}
+
+div>i {
+    font-size: 35px;
+
+}
+
+.bg button {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #b3b1b1;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    height:20px;
+    width: 20px;
+
+}
+
+
+.bg:hover {
+    border: 2px solid rgb(44, 131, 44);
+    border-radius: 7px;
+}
+
+.bg select {
+    height: 100%;
+    width: 80px;
+    border: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: #666363;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.bg img {
+    border-radius: 5px;
+    width: 25px;
+    height: 20px;
+}
+
+.line {
+    width: 1px;
+    height: 30px;
+    border: 0.25px solid #e2d9d9;
+
+    line-height: 35px;
+}
+
+.bg input {
+
+    height: 40px;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #cfcfcf;
+    border: none;
+
+
+
+}
+
+.otp button {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(226, 77, 77);
+    border-radius: 10px;
+    border: transparent;
+    color: aliceblue;
+    font-size: 16px;
+
+
+}
+
+.otp button:hover {
+    background-color: rgb(192, 66, 66);
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cfcfcf;
+}
+
+.or div {
+    width: 120%;
+    border: 0.25px solid #cfcfcf;
+}
+
+.google-logo button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #beb8b8 solid;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #666363;
+}
+
+.google-logo img {
+    font-size: small;
+    width: 20px;
+    margin: 15px;
+}
+
+.mail-icon button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px #beb8b8 solid;
+    font-size: 15px;
+    line-height: 16px;
+    color: #666363;
+    justify-content: center;
+}
+
+.mail-icon img {
+    padding-right: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+.part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.part p {
+    color: rgb(54, 54, 54);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.part a {
+    color: rgb(239, 79, 95);
+    text-decoration: none;
+}
